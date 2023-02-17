@@ -9,6 +9,6 @@ clientSock.sendto(msg.encode(), (address, port))    #attaching server name and p
 
 modifiedMsg, serverAddress = clientSock.recvfrom(2048)  #read the reply character from socket into a string
 print(modifiedMsg.decode())
-clientSock.close()
+
 
 
